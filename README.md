@@ -1,8 +1,55 @@
-<<<<<<< HEAD
 # NYC Taxi Trip Duration Prediction
 
-Machine learning project to predict NYC taxi trip duration using regression models, feature engineering, and exploratory data analysis (EDA).
-=======
-# trip-duration-prediction
-End-to-end machine learning project for predicting NYC taxi trip duration. The workflow covers data cleaning, exploratory data analysis (EDA), feature engineering, and regression modeling, with a focus on improving prediction accuracy and evaluating model performance.
->>>>>>> b1c7a5c8621aaac6299f96841c0c0d149051b6fb
+End-to-end machine learning project for predicting NYC taxi trip duration.
+
+## Project Overview
+This project focuses on predicting the total ride duration of taxi trips in New York City using machine learning regression techniques.
+
+The workflow includes:
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Regression modeling
+- Model evaluation
+
+## Project Structure
+
+trip-duration-prediction/
+
+├── data/
+
+├── notebooks/
+
+├── src/
+
+├── README.md
+
+├── requirements.txt
+
+└── .gitignore
+
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+## Model Performance
+- R² Score: 0.66
+- RMSE: 0.48
+
+## How to Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Train the model:
+
+python src/train.py
+
+Run prediction:
+
+python src/predict.py
